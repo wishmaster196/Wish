@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Simple Website</title>
+</head>
+<body>
+    <!-- Inside the header section -->
+<header>
+    <h1>WELCOME TO MY WEBSITE</h1>
+    <div class="action-buttons">
+        <button onclick="callAction()">Call</button>
+        <button onclick="emailAction()">Email</button>
+    </div>
+</header>
+<!-- Inside the first section (section1) -->
+<section id="section1">
+    <h2>Section 1</h2>
+    <p>Welcome to my portfolio! I specialize in graphics design, showcasing my skills in creating visually appealing and impactful designs.</p>
+    
+    <h3>Skills:</h3>
+    <ul>
+        <li>Logo Design</li>
+        <li>Web Graphics</li>
+        <li>Print Design</li>
+        <li>UI/UX Design</li>
+        <!-- Add more skills as needed -->
+    </ul>
+</section>
+<!-- Inside the second section (section2) -->
+<section id="section2">
+    <h2>Section 2</h2>
+    <p>Explore some of my recent graphics design projects below:</p>
+    
+    <div class="project-gallery">
+        <div class="project">
+            <img src="/storage/emulated/0/Documents/pixelLab/20240225_155720.jpg" alt="Project 1">
+            <p>Project 1 - This is a bannner i designed for one of my client</p>
+        </div>
+        <div class="project">
+            <img src="/storage/emulated/0/Documents/pixelLab/20240128_004322.jpg" alt="Project 2">
+            <p>Project 2 - One of the logo i designed for a client .</p>
+        </div>
+        <!-- Add more project entries as needed -->
+    </div>
+</section>
+<!-- Inside the third section (section3) -->
+<section id="section3">
+    <h2>Section 3</h2>
+    <p>Contact Information:</p>
+    
+    <ul>
+        <li><strong>Address:</strong> 223 Kericho</li>
+        <li><strong>Location:</strong> Kericho Town</li>
+        <li><strong>Social Media:</strong>
+            <a href="https://www.facebook.com/Wishmaster196" target="_blank"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="https://x.com/masterwish97?t=pG_rZGGatOYDk09-5Q3laA&5=09" target="_blank"><img src="twitter-icon.png" alt="Twitter"></a>
+            <a href="https://www.instagram.com/i.am.wish.master_196?igsh=dWh1M3N2ZTF5N3F1" target="_blank"><img src="instagram-icon.png" alt="Instagram"></a>
+            <a href="https://www.tiktok.com/@wish_lyrics?_r=1&_d=eai569ljl1i22b&sec_uid=MS4wLjABAAAA0zH9BgqHT1qGuRylMv5AWPj1nPCZdXI3XdHENePO6wFxVZF_7HxYug1vYYfJg9km&share_author_id=6823279221155251206&sharer_language=en&source=h5_m&u_code=dc850i0h9ijl1d&timestamp=1709732192&user_id=6823279221155251206&sec_user_id=MS4wLjABAAAA0zH9BgqHT1qGuRylMv5AWPj1nPCZdXI3XdHENePO6wFxVZF_7HxYug1vYYfJg9km&utm_source=copy&utm_campaign=client_share&utm_medium=android&share_iid=7342766914692712198&share_link_id=02dfa000-0bf5-45e0-abb2-80c9def898e5&share_app_id=1233&ugbiz_name=ACCOUNT&ug_btm=b8727%2Cb0229&social_share_type=5&enable_checksum=1" target="_blank"><img src="tiktok-icon.png" alt="TikTok"></a>
+        </li>
+        <!-- Add more contact details as needed -->
+    </ul>
+</section>
+<script>
+    function callAction() {
+        // Add your logic for the "Call" action here
+        window.location.href = 'tel:+0759110073';
+    }
+
+    function emailAction() {
+        // Add your logic for the "Email" action here
+        window.location.href = 'mailto:masterwish97@gmail.com';
+    }
+</script>
+    </nav>
+    
+    <footer>
+        <p>&copy; 2024 Wish Master Graphics. All rights reserved.</p>
+    </footer>
+</body>
+</html>
